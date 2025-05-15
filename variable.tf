@@ -1,7 +1,7 @@
 variable "project_id" {
   description = "The GCP project ID"
   type        = string
-  default     = "symbolic-pipe-457709-n9	
+  default     = "symbolic-pipe-457709-n9"
 "  
 }
 
