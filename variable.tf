@@ -1,7 +1,8 @@
 variable "project_id" {
   description = "The GCP project ID"
   type        = string
-  default     = "saicharan-457910"  
+  default     = "symbolic-pipe-457709-n9	
+"  
 }
 
 variable "region" {
@@ -13,7 +14,7 @@ variable "region" {
 variable "cluster_name" {
   description = "The name of the Kubernetes cluster"
   type        = string
-  default     = "my-cluster11" 
+  default     = "saiteja_cluster-1" 
 }
 
 variable "node_count" {
