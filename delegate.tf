@@ -29,14 +29,16 @@ module "delegate" {
 
   account_id = "ucHySz2jQKKWQweZdXyCog"
   delegate_token = "NTRhYTY0Mjg3NThkNjBiNjMzNzhjOGQyNjEwOTQyZjY="
-  delegate_name = "terraform-delegate-charan"
+  delegate_name = "terraform-delegate-sa"
   deploy_mode = "KUBERNETES"
   namespace = "harness-delegate-ng"
   manager_endpoint = "https://app.harness.io"
-  delegate_image = "us-docker.pkg.dev/gar-prod-setup/harness-public/harness/delegate:25.04.85701"
+  delegate_image = "us-docker.pkg.dev/gar-prod-setup/harness-public/harness/delegate:25.05.85801"
   replicas = 1
   upgrader_enabled = true
 }
+
+
 
 
 
