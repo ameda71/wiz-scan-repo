@@ -14,7 +14,7 @@ variable "region" {
 variable "cluster_name" {
   description = "The name of the Kubernetes cluster"
   type        = string
-  default     = "saiteja_cluster-1" 
+  default     = "saiteja-cluster-1" 
 }
 
 variable "node_count" {
