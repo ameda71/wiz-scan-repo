@@ -1,3 +1,0 @@
-image:
-  repository: <+pipeline.stages.mvn_and_docker_build.spec.execution.steps.BuildAndPushDockerRegistry_1.artifact_BuildAndPushDockerRegistry_1.stepArtifacts.publishedImageArtifacts[0].imageName>
-  tag:  <+pipeline.stages.mvn_and_docker_build.spec.execution.steps.BuildAndPushDockerRegistry_1.artifact_BuildAndPushDockerRegistry_1.stepArtifacts.publishedImageArtifacts[0].tag>
